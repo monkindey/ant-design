@@ -17,13 +17,13 @@ title: Modal
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
-| maskClosable | 点击蒙层是否允许关闭 | boolean | true |
-| confirmLoading | 确定按钮 loading | boolean | 无 |
 | afterClose | Modal 完全关闭后的回调 | function | 无 |
-| closable | 是否显示右上角的关闭按钮 | boolean | true |
 | cancelText | 取消按钮文字 | string | 取消 |
+| closable | 是否显示右上角的关闭按钮 | boolean | true |
+| confirmLoading | 确定按钮 loading | boolean | 无 |
 | footer | 底部内容，当不需要默认底部按钮时，可以设为 `footer={null}` | string\|ReactNode | 确定取消按钮 |
 | getContainer | 指定 Modal 挂载的 HTML 节点 | (instance): HTMLElement | () => document.body |
+| maskClosable | 点击蒙层是否允许关闭 | boolean | true |
 | okText | 确认按钮文字 | string | 确定 |
 | okType | 确认按钮类型 | string | primary |
 | style | 可用于设置浮层的样式，调整浮层位置等 | object | - |
