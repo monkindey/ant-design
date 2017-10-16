@@ -18,13 +18,13 @@ and so on.
 
 | Property | Description | Type | Default |
 | -------- | ----------- | ---- | ------- |
-| maskClosable | Whether to close the modal dialog when the mask (area outside the modal) is clicked | boolean | true |
-| confirmLoading | Whether to apply loading visual effect for OK button or not | boolean | false |
 | afterClose | Specify a function that will be called when modal is closed completely. | function | - |
-| closable | Whether a close (x) button is visible on top right of the modal dialog or not | boolean | true |
 | cancelText | Text of the Cancel button | string | `Cancel` |
+| closable | Whether a close (x) button is visible on top right of the modal dialog or not | boolean | true |
+| confirmLoading | Whether to apply loading visual effect for OK button or not | boolean | false |
 | footer | Footer content, set as `footer={null}` when you don't need default buttons | string\|ReactNode | OK and Cancel buttons |
 | getContainer | Return the mount node for Modal | (instance): HTMLElement | () => document.body |
+| maskClosable | Whether to close the modal dialog when the mask (area outside the modal) is clicked | boolean | true |
 | okText | Text of the OK button | string | `OK` |
 | okType | Button `type` of the OK button | string | `primary` |
 | style | Style of floating layer, typically used at least for adjusting the position. | object | - |
